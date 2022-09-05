@@ -15,8 +15,13 @@
   justify-content: center;
   column-gap: 64px;
   cursor: pointer;
+  align-items: center;
 }
 
 .header__button {
+  outline: 1px solid var(--yellow);
+  padding: 21px 28px;
   cursor: pointer;
+  color: var(--yellow);
+  background: rgba(233, 215, 167, 0.1);
 }

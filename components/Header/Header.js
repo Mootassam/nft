@@ -14,10 +14,8 @@ function Header(props) {
             <li>Explore</li>
             <li>Creators</li>
             <li>Community</li>
+            <li className={styles.header__button}>Connect Wallet</li>
           </ul>
-        </div>
-        <div className={styles.header__button}>
-          <li> Connect Wallet </li>
         </div>
       </header>
     </div>
