@@ -1,3 +1,24 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* primayColor */
+  --yellow: #ffce4e;
+  --white: #fff;
+  --black: #000000;
+  --background: #251928;
+
+  /* secondary Color */
+  --pink: #e03054;
+  --pink2: #f7d7ff;
+  --gray: #e4dee7;
+  --gray2: #594d5e;
+  --vieolet: #8613a5;
+}
 html,
 body {
   padding: 0;
@@ -6,10 +27,20 @@ body {
   font-weight: 400;
   /* font-family: "Work Sans", sans-serif; */
 }
-*,
-::after,
-::before {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1367px;
+  margin: auto;
+  padding-top: 37px;
+}
+li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--white);
 }

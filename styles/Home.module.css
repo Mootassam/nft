@@ -1,1 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@500;600;700&family=Work+Sans:wght@400;500;700&display=swap");
+.container {
+  width: 100%;
+}
+
+/* styling the header Section */
+.header {
+  height: 100vh;
+  background-color: var(--background);
+}
+.header__image {
+}
+.header__links > ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 64px;
+  cursor: pointer;
+}
+
+.header__button {
+  cursor: pointer;
+}
