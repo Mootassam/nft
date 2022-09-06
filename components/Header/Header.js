@@ -1,5 +1,5 @@
 import React from "react";
-import { logoHeader } from "../../assets/images";
+import { logoHeader, Group } from "../../assets/images";
 import Image from "next/image";
 function Header(props) {
   const styles = props.styles;
@@ -18,6 +18,19 @@ function Header(props) {
           </ul>
         </div>
       </header>
+
+      <div className={styles.header__content}>
+        <div className={styles.content__left}>
+          <h1>
+            Explore, Buy and Sell the{" "}
+            <div className={styles.yellow}> Best NFTs! </div>
+          </h1>
+        </div>
+
+        <div className={styles.content__right}>
+          <Image src={Group} />
+        </div>
+      </div>
     </div>
   );
 }

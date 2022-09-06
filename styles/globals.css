@@ -9,6 +9,7 @@
   /* primayColor */
   --yellow: #ffce4e;
   --white: #fff;
+  --white2: #f5fbf2;
   --black: #000000;
   --background: #251928;
 
@@ -43,4 +44,11 @@ li {
   line-height: 21px;
   letter-spacing: 0.02em;
   color: var(--white);
+}
+
+h1 {
+  color: var(--white2);
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 130px;
 }

@@ -24,4 +24,19 @@
   cursor: pointer;
   color: var(--yellow);
   background: rgba(233, 215, 167, 0.1);
+  margin-left: 161px;
+}
+
+/* styling the header content */
+.header__content {
+  width: 100%;
+  padding-top: 139px;
+  display: grid;
+  grid-template-columns: 710px 558px;
+  max-width: 1367px;
+  margin: auto;
+  column-gap: 99px;
+}
+.yellow {
+  color: var(--yellow);
 }

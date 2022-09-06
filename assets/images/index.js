@@ -1,2 +1,3 @@
 import logoHeader from "./imagelogo.png";
-export { logoHeader };
+import Group from "./Group.png";
+export { logoHeader, Group };
